@@ -285,15 +285,15 @@ if __name__ == '__main__':
     
     #
     
-    # start_time = time.time()
-    # result = dfs(init_matrix, goal_matrix)
-    # end_time = time.time()
-    # exec_time = end_time - start_time
+    start_time = time.time()
+    result = dfs(init_matrix, goal_matrix)
+    end_time = time.time()
+    exec_time = end_time - start_time
 
-    # print('DFS')
-    # print(result)
-    # print(f'{exec_time:.6f} segundos')
-    # print()
+    print('DFS')
+    print(result)
+    print(f'{exec_time:.6f} segundos')
+    print()
     
     #
     
