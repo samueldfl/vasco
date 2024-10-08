@@ -258,18 +258,18 @@ def manhattanHeuristic(state, goal):
     return distance
 
 if __name__ == '__main__':
-    goal_matrix = [
-        [1, 2, 3],
-        [8, None, 4],
-        [7, 6, 5]
-    ]
-    
     # goal_matrix = [
-    #     [1, 2, 3, 4],
-    #     [12, 13, 14, 5],
-    #     [11, None, 15, 6],
-    #     [10, 9, 8, 7]
+    #     [1, 2, 3],
+    #     [8, None, 4],
+    #     [7, 6, 5]
     # ]
+    
+    goal_matrix = [
+        [1, 2, 3, 4],
+        [12, 13, 14, 5],
+        [11, None, 15, 6],
+        [10, 9, 8, 7]
+    ]
 
     init_matrix = shuffle_board(goal_matrix)
 
